@@ -4,7 +4,8 @@
 Solution of the 2nd project from the subject INP in 2021/22. <br />
 VUT FIT
 
-## Hodnocení
+## Hodnocení/Score
 Zbytečně mnoho nopů a nevhodný výpočet modulo 2 (-1b)
+Unnecessarily many nopes and inappropriate calculation modulo 2 (-1b)
 
-Celkem bodů **9/10** b.
+Celkem bodů/Total points **9/10** b.
