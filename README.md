@@ -1,11 +1,15 @@
-# INP-Project2-2021
+# INP-Project02-2021
 
-Řešení 2. projektu z předmětu INP v roce 2021/22. <br />
-Solution of the 2nd project from the subject INP in 2021/22. <br />
-VUT FIT
+Solution for the 2nd project from the subject _'INP (Design of Computer Systems)'_ for the academic year 2021/22 at VUT FIT. \
+Řešení 2. projektu z předmětu _'INP (Návrh počítačových systémů)'_ pro akademický rok 2021/22 na VUT FIT.
 
-## Hodnocení/Score
-Zbytečně mnoho nopů a nevhodný výpočet modulo 2 (-1b)
-Unnecessarily many nopes and inappropriate calculation modulo 2 (-1b)
+## Task
 
-Celkem bodů/Total points **9/10** b.
+- Vernam's cipher (also known as the one-time pad) on the DLX architecture
+
+## Evaluation
+
+- unecessarily many NOPpes
+- inappropriate calculation modulo 2
+
+Total points: **9/10**
