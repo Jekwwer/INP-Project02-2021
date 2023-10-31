@@ -1,7 +1,7 @@
 # INP-Project02-2021
 
-Solution for the 2nd project from the subject _'INP (Design of Computer Systems)'_ for the academic year 2021/22 at VUT FIT. \
-Řešení 2. projektu z předmětu _'INP (Návrh počítačových systémů)'_ pro akademický rok 2021/22 na VUT FIT.
+Solution for the 2nd project from the course _'[INP (Design of Computer Systems)](https://www.fit.vut.cz/study/course/268250/)'_ for the academic year 2021/22 at VUT FIT. \
+Řešení 2. projektu z předmětu _'[INP (Návrh počítačových systémů)](https://www.fit.vut.cz/study/course/268250/.cs)'_ pro akademický rok 2021/22 na VUT FIT.
 
 ## Task: Vernam Cipher - Calculation on a Pipelined DLX Architecture
 
