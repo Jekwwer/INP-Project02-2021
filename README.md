@@ -1,47 +1,73 @@
-# INP-Project02-2021
+# **INP-Project02-2021**:
 
-Solution for the 2nd project from the course _'[INP (Design of Computer Systems)](https://www.fit.vut.cz/study/course/268250/)'_ for the academic year 2021/22 at VUT FIT. \
-Řešení 2. projektu z předmětu _'[INP (Návrh počítačových systémů)](https://www.fit.vut.cz/study/course/268250/.cs)'_ pro akademický rok 2021/22 na VUT FIT.
+### Vernam Cipher on Pipelined DLX Architecture
 
-## Task: Vernam Cipher - Calculation on a Pipelined DLX Architecture
+> **University**: [VUT FIT](https://www.fit.vut.cz/)
+>
+> **Course**: [INP (Design of Computer Systems)](https://www.fit.vut.cz/study/course/268250/)
+>
+> **Academic Year**: 2021/22
 
-#### Project Objective:
+---
 
-- Understand basic principles and selected issues of pipelined instruction processing.
+## 🎯 **Project Objective**
 
-#### Assignment:
+- Comprehend the fundamental principles and nuanced facets of pipelined instruction processing.
 
-1. **Language & Tools:** Use the symbolic instruction language of the DLX processor architecture and the OpenDLX simulator.
-2. **Task:** Implement a modified Vernam cipher algorithm.
-3. **Cipher Details:**
-   - Type: Substitution cipher.
-   - Message: Lowercase English letters (a-z) and numbers (0-9).
-   - Key: Two characters, English letters (a-z), applied cyclically to the message.
-   - ASCII representation for encryption.
+---
 
-#### Example:
+## 📋 **Assignment Details**
 
-- **Message:** xbidlo01
-- **Key:** bi
-- **Result:** zskunf
+**Language & Tools**:
 
-#### Instructions:
+- Utilize the symbolic instruction language tailored for the DLX processor architecture.
+- Employ the OpenDLX simulator for the task.
 
-1. **Setup:** Download and set up the OpenDLX simulator. Ensure Java is installed.
-2. **Initial Testing:** Run the simulator and open the file `vernam.s`. Test its basic functioning.
-3. **File Modification:** Modify `vernam.s` - update the header and replace the welcome message.
-4. **Register Selection:** Use `registry.txt` to identify which registers to use based on your login.
-5. **Coding:** After the "cipher" label, insert the Vernam cipher logic. Change the system call after the "end" label to display the encrypted message.
-6. **Final Steps:** Rename the file to your login with a `.s` extension. Submit the renamed file to IS FIT.
+**Main Task**:
 
-#### Evaluation Details:
+- Develop an algorithm for the modified Vernam cipher.
 
-- **Non-functional solutions:** Graded 0 points.
-- **Plagiarism:** Graded 0 points and possible disciplinary actions.
+**Cipher Specifications**:
 
-## Evaluation
+- **Type**: Substitution cipher.
+- **Message**: Limited to lowercase English alphabets (a-z) and numerals (0-9).
+- **Key**: A pair of English alphabets (a-z) applied cyclically over the message for encryption.
+- Encryption relies on ASCII representation.
 
-- unecessarily many NOPpes
-- inappropriate calculation modulo 2
+---
 
-Total points: **9/10**
+## 📜 **Example**
+
+```
+- Message: xbidlo01
+- Key:     bi
+- Result:  zskunf
+```
+
+---
+
+## 🛠 **Instructions**
+
+1. **Setup**: First, ensure Java's presence. Then, proceed with downloading and installing the OpenDLX simulator.
+2. **Initiation Test**: Launch the simulator and load the `vernam.s` file. This step ensures basic operability.
+3. **File Tweaking**: In `vernam.s`, refresh the header and supersede the initial welcome text.
+4. **Register Assignment**: Refer to `registry.txt` to discern which registers are suitable, based on your personal login.
+5. **Coding**: Post the "cipher" label, infuse the Vernam cipher logic. Subsequent to the "end" label, modify the system call to showcase the encrypted output.
+6. **Completion**: Rename your file to reflect your login and append a `.s` extension. This renamed file should be uploaded to IS FIT.
+
+---
+
+## ⚠️ **Evaluation Specifics**
+
+- **Non-operational Solutions**: These fetch 0 points.
+- **Plagiarism**: Punishable with 0 points, coupled with potential disciplinary consequences.
+
+---
+
+## 📊 **Performance Evaluation**
+
+- Presence of superfluous NOPpes.
+- Misguided modulo 2 computations.
+
+🟢🟢🟢🟢🟡  
+**Total Points: 9/10**
