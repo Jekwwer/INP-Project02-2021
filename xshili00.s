@@ -23,10 +23,9 @@ while:
 	slti r16, r1, 97	; r16 = r1 < 'a' (checking if it's a letter)
 	bnez r16, end		; if(r16 = 1) it's not a letter on input, jump to END 
 	nop
-	nop
+
 	sgti r16, r1, 122	; r16 = r1 > 'z' (checking if it's a letter)
 	bnez r16, end		; if(r16 = 1) it's not a letter on input, jump to END 
-	nop
 	nop
 	
 	add r16, r0, r7		; r16 = r7, storing the value of the counter
@@ -44,7 +43,6 @@ while:
 	nop
 	bnez r7, minus		; if(r7 = 1), jump to subtraction from the symbol
 	nop
-	nop
 
 plus:
 	add r7, r0, r16		; r7 = r16 restoring the value of the counter
@@ -55,13 +53,11 @@ plus:
 	slei r16, r29, 122	; r16 = r29 <= 'z' (checking if the symbol is within a-z)
 	bnez r16, write		; if(r16 = 1), it's within the range, jump to WRITE
 	nop
-	nop
 	
 	; symbol is outside the range
 	subi r29, r29, 122	; r29 = r29 - 'z'
 	addi r29, r29, 96	; r29 = r29 + symbol before 'a' (for correct looping)
 	j write				; jump to WRITE
-	nop
 	nop
 
 minus:
@@ -71,7 +67,6 @@ minus:
 
 	sgei r16, r29, 97	; r16 = r29 >= 'a' (checking if the symbol is within a-z)
 	bnez r16, write		; if(r16 = 1), it's within the range, jump to WRITE
-	nop
 	nop
 
 	; symbol is outside the range
@@ -90,7 +85,6 @@ write:
 	lb r1, login(r7)	; r1 = login[r7]
 	
 	j while				; jump to WHILE (start of the loop)
-	nop
 	nop
 	
 	addi r29, r0, 0	; r29 = 0 end symbol
