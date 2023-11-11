@@ -69,7 +69,7 @@
 | Note                            | Status                  |            |
 | ------------------------------- | ----------------------- | ---------: |
 | Superfluous NOPs                | _Fixed post-evaluation_ |            |
-| Misguided modulo 2 computations | _Not Fixed_             |            |
+| Misguided modulo 2 computations | _Fixed post-evaluation_ |            |
 |                                 |                         |            |
 | **Total Points:**               |                         |   **9/10** |
 |                                 |                         | 🟢🟢🟢🟢🟡 |
