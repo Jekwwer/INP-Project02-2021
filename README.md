@@ -4,7 +4,7 @@
 
 > **University**: [VUT FIT](https://www.fit.vut.cz/)
 >
-> **Course**: [INP (Design of Computer Systems)](https://www.fit.vut.cz/study/course/268250/)
+> **Course**: [Design of Computer Systems (INP)](https://www.fit.vut.cz/study/course/268250/)
 >
 > **Academic Year**: 2021/22
 
