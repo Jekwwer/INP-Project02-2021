@@ -31,18 +31,8 @@ while:
 	add r16, r0, r7		; r16 = r7, storing the value of the counter
 
 	; we need the remainder after division by two (to decide about adding/subtracting)
-	slli r7, r7, 31		; left shift by 31 bits
-	nop
-	nop
-	nop
-	nop
-	srli r7, r7, 31		; right shift by 31 bits (to get the remainder)
-	nop
-	nop
-	nop
-	nop
-	bnez r7, minus		; if(r7 = 1), jump to subtraction from the symbol
-	nop
+	andi r7, r7, 0x1       ; r7 = r7 & 0x1 isolates the least significant bit
+    bnez r7, minus         ; if(r7 = 1) jump to subtraction from the symbol
 
 plus:
 	add r7, r0, r16		; r7 = r16 restoring the value of the counter
@@ -90,6 +80,7 @@ write:
 	addi r29, r0, 0	; r29 = 0 end symbol
 	sb 0(r11), r29		; r11 = r29 / cipher[i] = r29 = 0
 
-end:    addi r14, r0, caddr ; <-- for printing the cipher, replace laddr with caddr address
+end:    
+	addi r14, r0, caddr ; <-- for printing the cipher, replace laddr with caddr address
 	trap 5  ; print text string (its address is expected in r14)
 	trap 0  ; end of simulation
