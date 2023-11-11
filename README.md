@@ -64,10 +64,12 @@
 
 ---
 
-## 📊 **Performance Evaluation**
+## 📊 **Evaluation Results**
 
-- Presence of superfluous NOPpes.
-- Misguided modulo 2 computations.
-
-🟢🟢🟢🟢🟡  
-**Total Points: 9/10**
+| Note                            | Status                  |            |
+| ------------------------------- | ----------------------- | ---------: |
+| Superfluous NOPs                | _Fixed post-evaluation_ |            |
+| Misguided modulo 2 computations | _Not Fixed_             |            |
+|                                 |                         |            |
+| **Total Points:**               |                         |   **9/10** |
+|                                 |                         | 🟢🟢🟢🟢🟡 |
