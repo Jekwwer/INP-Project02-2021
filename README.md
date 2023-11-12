@@ -2,11 +2,11 @@
 
 ### Vernam Cipher on Pipelined DLX Architecture
 
-> **University**: [VUT FIT](https://www.fit.vut.cz/)
+> 🎓 **University**: [VUT FIT](https://www.fit.vut.cz/)
 >
-> **Course**: [Design of Computer Systems (INP)](https://www.fit.vut.cz/study/course/268250/)
+> 📚 **Course**: [Design of Computer Systems (INP)](https://www.fit.vut.cz/study/course/268250/)
 >
-> **Academic Year**: 2021/22
+> 📅 **Academic Year**: 2021/22
 
 ---
 
